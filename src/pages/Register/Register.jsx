@@ -20,7 +20,7 @@ const Register = () => {
                 const errorMessage = error.message;
                 console.log(errorCode,errorMessage)
             })
-        navigate("/")
+        navigate("/home")
     }
 
 

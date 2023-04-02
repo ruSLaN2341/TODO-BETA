@@ -21,7 +21,7 @@ const Login = () => {
         dispatch(setUser({
             ...docSnap.data()
         }))
-         navigate("/")
+         navigate("/home")
         console.log(docSnap.data())
     }
 

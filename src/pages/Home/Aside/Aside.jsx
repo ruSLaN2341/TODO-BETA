@@ -53,7 +53,7 @@ const Aside = () => {
     }
 
     const exit = () =>{
-        navigate("/login")
+        navigate("")
         dispatch(setUser({
             id:""
         }),
