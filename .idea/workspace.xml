@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="042fed7d-efe6-4ac4-9144-0f4fefd525de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comonents/Form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/comonents/Form/Form.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comonents/Form/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/comonents/Form/form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Aside/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Aside/Aside.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Aside/aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Aside/aside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeContent/HomeContent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/HomeContent/HomeContent.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/HomeContent/homeContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/HomeContent/homeContent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/OneTask/OneTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/OneTask/OneTask.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/OneTask/oneTask.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/OneTask/oneTask.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Register/Register.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/Task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducer/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/colors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +51,8 @@
       <workItem from="1680288932019" duration="1515000" />
       <workItem from="1680370053638" duration="11582000" />
       <workItem from="1680429647173" duration="1086000" />
-      <workItem from="1680430959814" duration="276000" />
+      <workItem from="1680430959814" duration="734000" />
+      <workItem from="1680431706274" duration="453000" />
     </task>
     <servers />
   </component>
