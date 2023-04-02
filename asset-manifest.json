@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ruSLaN2341/todo-beta.git/static/css/main.20555619.css",
-    "main.js": "/ruSLaN2341/todo-beta.git/static/js/main.18e3d3c6.js",
-    "index.html": "/ruSLaN2341/todo-beta.git/index.html",
-    "main.20555619.css.map": "/ruSLaN2341/todo-beta.git/static/css/main.20555619.css.map",
-    "main.18e3d3c6.js.map": "/ruSLaN2341/todo-beta.git/static/js/main.18e3d3c6.js.map"
+    "main.css": "/github.io/todo-beta/static/css/main.20555619.css",
+    "main.js": "/github.io/todo-beta/static/js/main.2be10b10.js",
+    "index.html": "/github.io/todo-beta/index.html",
+    "main.20555619.css.map": "/github.io/todo-beta/static/css/main.20555619.css.map",
+    "main.2be10b10.js.map": "/github.io/todo-beta/static/js/main.2be10b10.js.map"
   },
   "entrypoints": [
     "static/css/main.20555619.css",
-    "static/js/main.18e3d3c6.js"
+    "static/js/main.2be10b10.js"
   ]
 }
