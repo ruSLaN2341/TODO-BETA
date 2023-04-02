@@ -2,7 +2,7 @@
   "name": "todo-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ruSLaN2341/todo-beta.git",
+  "homepage": "https://ruSLaN2341/github.io/todo-beta",
   "dependencies": {
     "@emotion/styled": "^11.10.6",
     "@mui/material": "^5.11.15",
