@@ -1,0 +1,120 @@
+
+.aside{
+  position: relative;
+  width: 200px;
+  padding: 52px 20px 0 ;
+  background: rgba(128, 128, 128, 0.34);
+  height: 100vh;
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  &__title{
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  &__leave{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  &__menu{
+    display: flex;
+    flex-direction: column;
+  }
+  &__item{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    padding: 12px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    &.active{
+      background: white;
+    }
+    &:hover{
+      background: white;
+      .aside__item-del{
+        display: inline;
+      }
+    }
+    &-del{
+      display: none;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 13px;
+    }
+  }
+  &__color{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  &__create{
+    position: relative;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    padding: 12px 9px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 38px;
+    &:hover{
+      background: white;
+    }
+  }
+  &__popup{
+    margin-top: 20px;
+    position: relative;
+    width: 235px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 18px;
+    &-close{
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+      transform: translate(50%, -50%);
+    }
+  }
+  &__field{
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+    height: 32px;
+    width: 100%;
+    padding: 0 11px ;
+  }
+  &__colors{
+    margin: 13px 0;
+    display: flex;
+    column-gap: 5px;
+  }
+  &__col{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  &__add{
+    background: #4DD599;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+}

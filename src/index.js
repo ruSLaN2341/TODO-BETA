@@ -1,17 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import store, {persistor} from "./redux/index"
+import {Provider} from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+import {initializeApp} from "firebase/app";
+import { StyledEngineProvider } from '@mui/material/styles';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAGtRrojaNe_Vi5ni8eVngOQVXFb-9xlxE",
+    authDomain: "todolist-e4f29.firebaseapp.com",
+    projectId: "todolist-e4f29",
+    storageBucket: "todolist-e4f29.appspot.com",
+    messagingSenderId: "646630002473",
+    appId: "1:646630002473:web:d31a1d2d8009bdf79af138",
+    measurementId: "G-S693KGP0L1"
+};
+initializeApp(firebaseConfig);
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Provider store={store}>
+        <PersistGate loading={"...Loading"} persistor={persistor}>
+            <StyledEngineProvider injectFirst>
+                <App />
+            </StyledEngineProvider>
+        </PersistGate>
+    </Provider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
